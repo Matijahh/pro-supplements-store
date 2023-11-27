@@ -1,0 +1,43 @@
+.navbar-wrapper {
+  background-color: #0f0f0f;
+}
+
+.navbar-brand-wrapper {
+  font-family: logoFont;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-wrapper .navbar-toggler {
+  border: none;
+}
+
+.navbar-wrapper .navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-wrapper .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../../assets/icons/list.svg") !important;
+}
+
+.navbar-brand-wrapper img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.navbar-wrapper .navbar-nav a {
+  color: #93b1a6;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  font-family: textFont;
+}
+
+.navbar-wrapper .navbar-nav a:hover {
+  color: white;
+}
+
+.navbar-wrapper .navbar-nav a svg {
+  margin-right: 7px;
+}

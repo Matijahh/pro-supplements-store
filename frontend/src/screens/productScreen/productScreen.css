@@ -1,0 +1,8 @@
+.product-screen-card .list-group-item {
+  background: transparent;
+  border-color: #93b1a6 !important;
+}
+
+.product-screen-card .description {
+  color: #93b1a6 !important;
+}

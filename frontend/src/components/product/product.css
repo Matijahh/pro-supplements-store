@@ -1,0 +1,13 @@
+.product-card a {
+  color: #93b1a6;
+  text-decoration: none;
+}
+
+.product-card a:hover,
+.price-text {
+  color: white;
+}
+
+.product-card .rating {
+  margin-bottom: 10px;
+}
