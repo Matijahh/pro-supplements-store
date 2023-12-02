@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "PRO Whey /4300g",
     image: "/images/pro-whey-1.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "PRO Mass / 5200g",
     image: "/images/pro-mass-1.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "PRO Bar / 60g",
     image: "/images/pro-bar-1.jpg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "Omega 3 PRO 120 Soft Gel",
     image: "/images/pro-vitamins-1.jpg",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "PRO ISO Whey / 2000g",
     image: "/images/pro-whey-2.jpg",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "PRO Pill Box",
     image: "/images/pill-box.jpg",
     description:
