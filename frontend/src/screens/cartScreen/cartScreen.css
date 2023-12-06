@@ -1,0 +1,10 @@
+.cart-screen-wrapper {
+  /* we are deviding height of header and footer and default 37px*/
+  min-height: calc(100vh - 75px - 63px - 37px);
+}
+
+.product-card .cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
