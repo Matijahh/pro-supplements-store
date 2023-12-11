@@ -39,7 +39,7 @@ const CartScreen = () => {
   };
 
   return (
-    <Row className="cart-screen-wrapper">
+    <Row className="cart-screen-wrapper screen">
       <Col md={8}>
         <h1 className="title-style" style={{ marginBottom: 20 }}>
           Shopping Cart

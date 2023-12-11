@@ -2,6 +2,20 @@
   background-color: #0f0f0f;
 }
 
+.navbar-wrapper .dropdown-item {
+  color: #93b1a6;
+}
+
+.navbar-wrapper .dropdown-menu {
+  border: none !important;
+  color: #93b1a6 !important;
+  box-shadow: 5px 5px 21px #252525, -5px -5px 21px #252525;
+}
+
+.navbar-wrapper .dropdown-item:hover {
+  background-color: #93b1a6;
+}
+
 .navbar-brand-wrapper {
   font-family: logoFont;
   display: flex;

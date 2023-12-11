@@ -14,7 +14,7 @@
 }
 
 main {
-  min-height: 80vh;
+  min-height: calc(100vh - 62px - 74px);
   font-family: textFont;
   background-color: #232d3f;
 }
@@ -72,6 +72,15 @@ table th {
 .title-style {
   font-family: textFontBold;
   color: #93b1a6;
+}
+
+.font-color {
+  font-family: textFont;
+  color: #93b1a6;
+}
+
+.screen {
+  padding-bottom: 64px;
 }
 
 .regular-button-style {

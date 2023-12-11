@@ -18,7 +18,7 @@ const HomeScreen = () => {
           {isError?.data.message || isError.error}
         </Message>
       ) : (
-        <>
+        <div className="screen">
           <h1 className="title-style">Latest Products</h1>
           <Row>
             {products.map((product) => (
@@ -27,7 +27,7 @@ const HomeScreen = () => {
               </Col>
             ))}
           </Row>
-        </>
+        </div>
       )}
     </>
   );
