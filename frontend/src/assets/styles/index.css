@@ -83,6 +83,21 @@ table th {
   padding-bottom: 64px;
 }
 
+.link,
+.link a {
+  color: #93b1a6;
+}
+
+.link-disabled,
+.link-disabled a {
+  color: #485751 !important;
+}
+
+.link:hover,
+.link a:hover {
+  color: white;
+}
+
 .regular-button-style {
   border: none !important;
   border-radius: 20px !important;
