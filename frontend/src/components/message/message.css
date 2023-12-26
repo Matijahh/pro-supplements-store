@@ -1,0 +1,17 @@
+.message-wrapper {
+  border: none !important;
+  background-color: #394a68 !important;
+  box-shadow: 10px 10px 15px #1e2736, -10px -10px 15px #283348;
+}
+
+.message-wrapper.danger {
+  color: rgb(209, 79, 79) !important;
+}
+
+.message-wrapper.success {
+  color: rgb(119, 203, 98) !important;
+}
+
+.message-wrapper.info {
+  color: #93b1a6 !important;
+}
