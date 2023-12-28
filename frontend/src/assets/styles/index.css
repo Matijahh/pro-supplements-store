@@ -40,8 +40,27 @@ main {
   white-space: nowrap; /* Prevent wrapping */
 }
 
-table td,
-table th {
+.table-responsive {
+  border-radius: 20px;
+}
+
+.table-style {
+  border: none !important;
+  border-radius: 20px !important;
+  background: #2e3c54 !important;
+  box-shadow: 15.32px 15.32px 21px #1e2736, -15.32px -15.32px 21px #283348 !important;
+}
+
+.table-style .x-icon {
+  color: rgb(209, 79, 79);
+}
+
+.table-style tr:last-child td {
+  border-bottom: none;
+}
+
+.table-style td,
+.table-style th {
   text-align: center;
 }
 
