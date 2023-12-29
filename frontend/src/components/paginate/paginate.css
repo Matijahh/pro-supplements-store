@@ -1,0 +1,8 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .active {
+  z-index: 1;
+}
