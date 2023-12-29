@@ -125,6 +125,13 @@ main {
   box-shadow: 15.32px 15.32px 21px #1e2736, -15.32px -15.32px 21px #283348;
 }
 
+.regular-button-style-without-radius {
+  border: none !important;
+  color: #93b1a6 !important;
+  background-color: #2e3c54 !important;
+  box-shadow: 15.32px 15.32px 21px #1e2736, -15.32px -15.32px 21px #283348;
+}
+
 .card-button-style {
   border: none !important;
   border-radius: 20px !important;
@@ -140,7 +147,8 @@ main {
   box-shadow: 15.32px 15.32px 21px #1e2736, -15.32px -15.32px 21px #283348;
 }
 
-.regular-button-style:hover {
+.regular-button-style:hover,
+.regular-button-style-without-radius:hover {
   box-shadow: inset 15.32px 15.32px 21px #1e2736,
     inset -15.32px -15.32px 21px #283348;
 }
