@@ -8,6 +8,7 @@ import Loader from "../../components/loader/loader";
 import Message from "../../components/message/message";
 import Paginate from "../../components/paginate/paginate";
 import SearchBox from "../../components/searchBox/searchBox";
+import ProductCarousel from "../../components/productCarousel/productCarousel";
 
 const HomeScreen = () => {
   const { pageNumber, keyword } = useParams();
@@ -18,7 +19,9 @@ const HomeScreen = () => {
 
   return (
     <>
-      {keyword && (
+      {!keyword ? (
+        <ProductCarousel />
+      ) : (
         <Link to="/" className="regular-button-style btn mb-4">
           Go Back
         </Link>
